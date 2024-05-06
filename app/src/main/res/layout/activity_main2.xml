@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/pet_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/puppy_for_assignment" />
+
+    <Button
+        android:id="@+id/button_feed"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="626dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="#43A047"
+        android:text="Feed"
+        android:textColor="#4E342E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_clean"
+        android:layout_width="106dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="#43A047"
+        android:text="Clean"
+        android:textColor="#4E342E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="#43A047"
+        android:text="Play"
+        android:textColor="#4E342E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="364dp"
+        android:layout_height="446dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="269dp"
+        android:text="status_text"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#E53935"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/feedCounter"
+        android:layout_width="95dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="542dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="125dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cleanCounter"
+        android:layout_width="105dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="542dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="124dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playCounter"
+        android:layout_width="96dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="124dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
